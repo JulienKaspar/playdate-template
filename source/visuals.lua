@@ -1,3 +1,6 @@
+-- Module
+import "AnimatedSprite/AnimatedSprite"
+
 local gfx <const> = playdate.graphics
 local gfxi <const> = playdate.graphics.image
 
