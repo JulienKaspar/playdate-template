@@ -1,3 +1,6 @@
 [submodule "playdate-luacats"]
 	path = playdate-luacats
 	url = https://github.com/notpeter/playdate-luacats.git
+[submodule "AnimatedSprite"]
+	path = AnimatedSprite
+	url = https://github.com/Whitebrim/AnimatedSprite.git
