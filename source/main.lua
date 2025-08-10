@@ -1,9 +1,11 @@
+-- CoreLibs
 import "CoreLibs/crank"
 import "CoreLibs/object"
 import "CoreLibs/graphics"
 import "CoreLibs/sprites"
 import "CoreLibs/timer"
 
+-- Game scripts
 import "sound"
 import "gameplay"
 import "visuals"
