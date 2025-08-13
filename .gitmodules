@@ -2,5 +2,5 @@
 	path = playdate-luacats
 	url = https://github.com/notpeter/playdate-luacats.git
 [submodule "AnimatedSprite"]
-	path = AnimatedSprite
+	path = source/modules/AnimatedSprite
 	url = https://github.com/Whitebrim/AnimatedSprite.git

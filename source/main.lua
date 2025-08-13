@@ -5,6 +5,9 @@ import "CoreLibs/graphics"
 import "CoreLibs/sprites"
 import "CoreLibs/timer"
 
+-- Module
+import "modules/AnimatedSprite/AnimatedSprite"
+
 -- Game scripts
 import "sound"
 import "gameplay"
