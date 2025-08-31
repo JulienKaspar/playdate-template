@@ -10,29 +10,49 @@ Either **manually** run the `pdc` compiler and the simulator, or use **VSCode** 
 1. **Download the PlaydateSDK** to run the simulator and the compiler.  
 https://play.date/dev/
 
-2. **Set environment variables**
+Download the "Software Development Kit". It's basically the game engine.|
+It has most of what we need, including a Playdate Simulator to play the game directly on the computer.
 
-    (Optional) to run the compiler from the terminal
+Unzip the file and put the contents somewhere where it's easy to find and hard to accidentally delete or move.
 
-    e.g. on `~/.bashrc`:
-    ```
-    # Playdate
-    export PLAYDATE_SDK_PATH="$HOME/stuff/PlaydateSDK"
-    export PATH="$PLAYDATE_SDK_PATH/bin:$PATH"
-    ```
+2. **Setup VSCode**
 
-3. **Setup VSCode**
+It's ideal to use VS Code because of some handy extensions that will make your life a LOT easier.
 
-    - Add the SDK Path to the settings in the `.code-workspace` file
-        ```
-        "settings": {
-            "playdate-debug.sdkPath": "/Users/stuff/PlaydateSDK",
-        }
-        ```
+#### Install the Extensions
+- Playdate from Orta
+- Playdate Debug from midouest
+- Lua from sumneko
 
-    - Install **VSCode extensions**
-        - Playdate (`midouest.playdate-debug`) - package the game and run in the simulator from the IDE.
-        - Lua (`sumneko.lua`) - syntax highlighting and language support for Lua.
+#### Vital Settings
+To compile the game, the computer or VS Code needs to know where the SDK can be found.
+There are a few ways to do this, both locally and global, but the easiest is the following:
 
-    Open the project folder in VSCode. Press F5. Go!
+1. Click on the Settings button at the bottom left (gear icon)
+2. Click on "Settings"
+3. Type "Playdate" into the search field
+4. Under "Extensions" in both "Playdate" and "Playdate Debug" you'll find the "SDK path" setting.
+5. Go to a file browser find the Playdate SDK folder you downloaded earlier and copy the path to it.
+6. Paste the path into each of the two "SDK path" settings.
+
+### Play the Game
+
+With everything set up, here's how you do.
+
+#### From VS Code
+
+Simply press F5 or press the play button at the top right of the window.
+This will compile the game and launch it via the Playdate Simulator.
+With Shift F5  you can close the Simulator again.
+The compiled game .pdx will be put into a folder like "builds" or "output" in the root of the project.
+
+#### Use the Playdate as a Controller
+
+If the device is connected via cable and not locked, you can use it as a controller.
+In the Simulator menus click on:
+Device → Use Device as Controller
+
+#### Put the Game on the Playdate
+
+Device → Upload Game to Device
  
