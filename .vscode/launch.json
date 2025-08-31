@@ -5,7 +5,9 @@
             "type": "playdate",
             "request": "launch",
             "name": "Playdate: Debug",
-            "preLaunchTask": "${defaultBuildTask}"
+            "preLaunchTask": "${defaultBuildTask}",
+            "source": "${workspaceFolder}/source",
+            "output": "${workspaceFolder}/builds.pdx"
         }
   ]
 }
