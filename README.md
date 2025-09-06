@@ -7,19 +7,23 @@ Hopefully this can be build on more but the basics are all here.
 
 Either **manually** run the `pdc` compiler and the simulator, or use **VSCode** as interface for git, code and launching the simulator.
 
-1. **Download the PlaydateSDK** to run the simulator and the compiler.  
+### Download the PlaydateSDK
+
+Download the **Software Development Kit**. It's basically the game engine.
 https://play.date/dev/
 
-Download the "Software Development Kit". It's basically the game engine.|
 It has most of what we need, including a Playdate Simulator to play the game directly on the computer.
 
-Unzip the file and put the contents somewhere where it's easy to find and hard to accidentally delete or move.
+On Windows it's an install .exe. For Linux it's a .zip.
+Either way, choose a folder somewhere where it's easy to find and hard to accidentally delete or move.
 
-2. **Setup VSCode**
+IMPORTANT: The .exe not actually installing it as a software. So it cannot be easily found via search as a program.
+
+### Setup VSCode
 
 It's ideal to use VS Code because of some handy extensions that will make your life a LOT easier.
 
-#### Install the Extensions
+#### Install the VS Code Extensions
 - Playdate from Orta
 - Playdate Debug from midouest
 - Lua from sumneko
@@ -32,7 +36,7 @@ There are a few ways to do this, both locally and global, but the easiest is the
 2. Click on "Settings"
 3. Type "Playdate" into the search field
 4. Under "Extensions" in both "Playdate" and "Playdate Debug" you'll find the "SDK path" setting.
-5. Go to a file browser find the Playdate SDK folder you downloaded earlier and copy the path to it.
+5. Go to a file browser find the Playdate SDK folder you from earlier and copy the path to it.
 6. Paste the path into each of the two "SDK path" settings.
 
 ### Play the Game
