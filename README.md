@@ -3,6 +3,11 @@
 This is a template that I used with some friends for the PlayJam4 and PlayJam5 to develop small Playdate games.
 Hopefully this can be build on more but the basics are all here.
 
+## Clone the Repo
+
+Step 0 of the process. More info:
+https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository
+
 ## Dev Setup
 
 Either **manually** run the `pdc` compiler and the simulator, or use **VSCode** as interface for git, code and launching the simulator.
